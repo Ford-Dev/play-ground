@@ -16,4 +16,9 @@ export default () => {
       });
     });
   });
+
+
+  console.log(new FordMise((res)=>{
+    res('haha')
+  }))
 };
